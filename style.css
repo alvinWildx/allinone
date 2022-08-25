@@ -1,0 +1,147 @@
+#heading1{
+	font-family: "Trebuchet MS", sans-serif;
+	margin-left: 50px;
+	margin-top: -575px;
+	font-size: 90px;
+	cursor: pointer;
+	width: 50%;
+	z-index: 10;
+}
+#headimg{
+	height: 590px;
+	width: 100%;
+}
+#heading2{
+	font-family: "Monaco", monospace;
+	font-size: 50px;
+	margin-left: 15px;
+}
+.agebutton{
+    margin-left: 25px;
+    font-size: 31px;
+    font-family: "verdana", serif;
+    border: solid;
+    padding: 20px;
+    background-color: white;
+    color: blue;
+    border-radius: 18PX;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.agebutton:hover{
+	background-color: blue;
+	color: white;
+}
+.hundredAges{
+	margin-left: 25px;
+    font-size: 31px;
+    font-family: "verdana", serif;
+    border: solid;
+    padding: 20px;
+    background-color: white;
+    color: green;
+    border-radius: 18PX;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.hundredAges:hover{
+	background-color: green;
+	color: white;
+}
+.num_detector{
+	margin-left: 25px;
+    font-size: 31px;
+    font-family: "verdana", serif;
+    border: solid;
+    padding: 20px;
+    background-color: white;
+    color: red;
+    border-radius: 18PX;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.num_detector:hover{
+	background-color: red;
+	color: white;
+}
+.calculator{
+	margin-left: 25px;
+    font-size: 31px;
+    font-family: "verdana", serif;
+    border: solid;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 18PX;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.calculator:hover{
+	background-color: black;
+	color: white;
+}
+#calcSize{
+	font size: 40px;
+}
+.TicTacToe{
+    margin-left: 25px;
+    font-size: 31px;
+    font-family: "verdana", serif;
+    border: solid;
+    padding: 20px;
+    background-color: white;
+    color: rgb(213, 75, 5);
+    border-radius: 18PX;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.TicTacToe:hover{
+    background-color: rgb(213, 75, 5);
+	color: white;
+}
+.footer{
+    background-color: black;
+    height: 22em;
+    width: 100%;
+    border: solid;
+    border-radius: 33px;
+}
+#hfooterm{
+    color: white;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 37%;
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+#instalogo{
+    height: 3em;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 7%;
+    transition: height 0.5s;
+}
+#instalogo:hover{
+    height: 55px;
+}
+#fblogo{
+    height: 3em;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 7%;
+    transition: height 0.5s;
+}
+#fblogo:hover{
+    height: 58px;
+}
+#twitterlogo{
+    height: 3em;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 7%;
+    transition: height 0.5s;
+}
+#twitterlogo:hover{
+    height: 58px;
+}

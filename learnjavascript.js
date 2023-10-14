@@ -1,6 +1,10 @@
 function agedetector() {
 	var boyr = window.prompt("Enter your year of birth:");
-	var pryr = window.prompt("Enter the current year:");
+	//to get current year programtically
+	const currentYear = new Date().getFullYear();
+        console.log("The current year is: " + currentYear);
+        //setting pryr to current year
+	var pryr = currentYear;
 	var yrage = pryr - boyr;
 	document.write("You are", "&nbsp", yrage,"&nbsp", "years old");
 	document.write("<br><br><i>Refresh the page to go back</i>");
